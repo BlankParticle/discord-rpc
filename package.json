@@ -1,0 +1,21 @@
+{
+  "name": "discord-rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@xhayper/discord-rpc": "^1.0.17",
+    "dotenv": "^16.1.0"
+  }
+}
